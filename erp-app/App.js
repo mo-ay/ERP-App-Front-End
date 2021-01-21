@@ -117,7 +117,7 @@ function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Login" drawerContent={ props => <DrawerContent { ...props } />}>
-        <Drawer.Screen name="Log In" component={ LoginStackScreen }/>
+        <Drawer.Screen name="Log In" component={LogIn} component={ LoginStackScreen }/>
         <Drawer.Screen name="All Employees" component={HomeStackScreen} />
         <Drawer.Screen name="Profile" component={ProfileStackScreen} />
         <Drawer.Screen name="KPI" component={KpiStackScreen} />

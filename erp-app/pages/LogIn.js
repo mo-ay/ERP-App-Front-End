@@ -8,7 +8,7 @@ function LogIn({navigation}) {
 <View style={styles.container}>
       <Text style={styles.titleText}>MnM Software Inc</Text>
         <TextInput
-        autoCapitalize = 'none'
+          keyboardType = 'username'
           placeholder='username'
           placeholderTextColor = 'white'
           style={styles.input}
